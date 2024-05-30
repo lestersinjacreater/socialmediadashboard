@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="resources/css/style.css" id="theme-link">
+  <title>Social Media Dashboard</title>
+</head>
+<body class="dark-theme || light-theme">
+  <header class="dark-theme || light-theme">
+    <div class="header-wrapper">
+      <div class="title-followers">
+        <h1>Social Media Dashboard</h1>
+        <h3 id="total-followers">Total Followers: 0</h3>
+      </div>
+      <hr>
+      <div class="color-toggle">
+        <p class="toggle">Dark Mode</p>
+        <label class="switch">
+          <input id="toggle" class="dark-mode" type="checkbox" unchecked>
+          <span class="slider round"></span>
+        </label>
+      </div>
+    </div>
+  </header>
+  <div class="kpi-wrapper">
+    <div class="kpi-card">
+      <div class="card-top-facebook"></div>
+      <div class="kpi-card-top">
+        <div class="icon"><img src="images/icon-facebook.svg" alt="facebook"></div>
+        <div class="handle"><p id="facebook-handle">@lester</p></div>
+      </div>
+      <div class="kpi" id="facebook-followers">0</div>
+      <div><h4 class="unit-of-measure">FOLLOWERS</h4></div>
+      <div><p class="delta up" id="facebook-delta">&#9652; 0 Today</p></div>
+    </div>
+    <div class="kpi-card">
+      <div class="card-top-twitter"></div>
+      <div class="kpi-card-top">
+        <div class="icon"><img src="images/icon-twitter.svg" alt="twitter"></div>
+        <div class="handle"><p id="twitter-handle">@lester</p></div>
+      </div>
+      <div class="kpi" id="twitter-followers">0</div>
+      <div><h4 class="unit-of-measure">FOLLOWERS</h4></div>
+      <div><p class="delta up" id="twitter-delta">&#9652; 0 Today</p></div>
+    </div>
+    <div class="kpi-card">
+      <div class="card-top-instagram"></div>
+      <div class="kpi-card-top">
+        <div class="icon"><img src="images/icon-instagram.svg" alt="instagram"></div>
+        <div class="handle"><p id="instagram-handle">@lester</p></div>
+      </div>
+      <div class="kpi" id="instagram-followers">0</div>
+      <div><h4 class="unit-of-measure">FOLLOWERS</h4></div>
+      <div><p class="delta up" id="instagram-delta">&#9652; 0 Today</p></div>
+    </div>
+    <div class="kpi-card">
+      <div class="card-top-youtube"></div>
+      <div class="kpi-card-top">
+        <div class="icon"><img src="images/icon-youtube.svg" alt="youtube"></div>
+        <div class="handle"><p id="youtube-handle">lester</p></div>
+      </div>
+      <div class="kpi" id="youtube-subscribers">0</div>
+      <div><h4 class="unit-of-measure">SUBSCRIBERS</h4></div>
+      <div><p class="delta down" id="youtube-delta">&#9662; 0 Today</p></div>
+    </div>
+  </div>
+  <div class="overview-header">
+    <h2>Overview - today</h2>
+  </div>
+  <div class="overview-kpis">
+    <div class="overview-wrapper">
+      <div class="kpi-small">
+        <div class="page-views">Page Views</div>
+        <div class="logo"><img src="images/icon-facebook.svg" alt="facebook"></div>
+        <div class="views">153</div>
+        <div class="movement up">&#9652; 7%</div>
+      </div>
+      <div class="kpi-small">
+        <div class="page-views">Likes</div>
+        <div class="logo"><img src="images/icon-facebook.svg" alt="facebook"></div>
+        <div class="views">78</div>
+        <div class="movement down">&#9662; 5%</div>
+      </div>
+      <div class="kpi-small">
+        <div class="page-views">Likes</div>
+        <div class="logo"><img src="images/icon-instagram.svg" alt="instagram"></div>
+        <div class="views">7894</div>
+        <div class="movement up">&#9652; 4311%</div>
+      </div>
+      <div class="kpi-small">
+        <div class="page-views">Profile Views</div>
+        <div class="logo"><img src="images/icon-instagram.svg" alt="instagram"></div>
+        <div class="views">76K</div>
+        <div class="movement up">&#9652; 3751%</div>
+      </div>
+      <div class="kpi-small">
+        <div class="page-views">Retweets</div>
+        <div class="logo"><img src="images/icon-twitter.svg" alt="twitter"></div>
+        <div class="views">95</div>
+        <div class="movement up">&#9652; 124%</div>
+      </div>
+      <div class="kpi-small">
+        <div class="page-views">Likes</div>
+        <div class="logo"><img src="images/icon-twitter.svg" alt="twitter"></div>
+        <div class="views">788</div>
+        <div class="movement up">&#9652; 233%</div>
+      </div>
+      <div class="kpi-small">
+        <div class="page-views">Likes</div>
+        <div class="logo"><img src="images/icon-youtube.svg" alt="youtube"></div>
+        <div class="views">2172</div>
+        <div class="movement down">&#9662; 49%</div>
+      </div>
+      <div class="kpi-small">
+        <div class="page-views">Total Views</div>
+        <div class="logo"><img src="images/icon-youtube.svg" alt="youtube"></div>
+        <div class="views">450</div>
+        <div class="movement down">&#9662; 62%</div>
+      </div>
+    </div>
+  </div>
+  <script src="resources/js/index.js"></script>
+</body>
+</html>

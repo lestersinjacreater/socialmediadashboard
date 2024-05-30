@@ -1,0 +1,23 @@
+{
+    "facebook": {
+      "username": "lester",
+      "followers_count": 230,
+      "delta": 110
+    },
+    "twitter": {
+      "username": "lester",
+      "followers_count": 12000,
+      "delta": 73
+    },
+    "instagram": {
+      "username": "lester",
+      "followers_count": 185,
+      "delta": 60
+    },
+    "youtube": {
+      "username": "lester",
+      "subscribers_count": 105,
+      "delta": -10
+    }
+  }
+  
